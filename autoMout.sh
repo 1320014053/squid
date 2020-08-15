@@ -17,7 +17,7 @@ echo "$name1" >> /etc/squid/uu11.list
 echo "$name2" >> /etc/squid/uu22.list
 echo "$name3" >> /etc/squid/uu33.list
 rm -r /etc/squid/squid.conf
-wget -O squid.conf -P /etc/squid/ https://raw.githubusercontent.com/1320014053/squid/master/squidMout.conf
+wget -O /etc/squid/squid.conf https://raw.githubusercontent.com/1320014053/squid/master/squidMout.conf
 service squid restart
 echo "sbdjm done"
 exit 0
