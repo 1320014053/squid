@@ -17,5 +17,5 @@ echo "$name1" >> /etc/squid/uu11.list
 echo "$name2" >> /etc/squid/uu22.list
 echo "$name3" >> /etc/squid/uu33.list
 rm -r /etc/squid/squid.conf
-wget -P /etc/squid/ https://raw.githubusercontent.com/1320014053/squid/master/squid.conf
+wget -P /etc/squid/ https://raw.githubusercontent.com/1320014053/squid/master/squidMout.conf
 exit 0
